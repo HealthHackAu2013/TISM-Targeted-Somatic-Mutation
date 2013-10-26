@@ -2,3 +2,8 @@ D:\!Work\HealthHack\HealthHack.TiSM\HealthHack.TiSM.Model\bin\Debug\HealthHack.T
 D:\!Work\HealthHack\HealthHack.TiSM\HealthHack.TiSM.Model\bin\Debug\HealthHack.TiSM.Model.pdb
 D:\!Work\HealthHack\HealthHack.TiSM\HealthHack.TiSM.Model\obj\Debug\HealthHack.TiSM.Model.dll
 D:\!Work\HealthHack\HealthHack.TiSM\HealthHack.TiSM.Model\obj\Debug\HealthHack.TiSM.Model.pdb
+D:\Users\d639126\Desktop\HealthHack\gitrepo\tism\HealthHack.TiSM\HealthHack.TiSM.Model\obj\Debug\HealthHack.TiSM.Model.dll
+D:\Users\d639126\Desktop\HealthHack\gitrepo\tism\HealthHack.TiSM\HealthHack.TiSM.Model\bin\Debug\HealthHack.TiSM.Model.dll
+D:\Users\d639126\Desktop\HealthHack\gitrepo\tism\HealthHack.TiSM\HealthHack.TiSM.Model\bin\Debug\HealthHack.TiSM.Model.pdb
+D:\Users\d639126\Desktop\HealthHack\gitrepo\tism\HealthHack.TiSM\HealthHack.TiSM.Model\obj\Debug\HealthHack.TiSM.Model.csprojResolveAssemblyReference.cache
+D:\Users\d639126\Desktop\HealthHack\gitrepo\tism\HealthHack.TiSM\HealthHack.TiSM.Model\obj\Debug\HealthHack.TiSM.Model.pdb

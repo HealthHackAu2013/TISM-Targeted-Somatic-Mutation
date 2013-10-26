@@ -8,3 +8,13 @@ D:\!Work\HealthHack\HealthHack.TiSM\HealthHack.TiSM\bin\Debug\HealthHack.TiSM.Mo
 D:\!Work\HealthHack\HealthHack.TiSM\HealthHack.TiSM\bin\Debug\HealthHack.TiSM.DAL.dll
 D:\!Work\HealthHack\HealthHack.TiSM\HealthHack.TiSM\bin\Debug\HealthHack.TiSM.DAL.pdb
 D:\!Work\HealthHack\HealthHack.TiSM\HealthHack.TiSM\bin\Debug\HealthHack.TiSM.exe.config
+D:\Users\d639126\Desktop\HealthHack\gitrepo\tism\HealthHack.TiSM\HealthHack.TiSM\bin\Debug\HealthHack.TiSM.exe.config
+D:\Users\d639126\Desktop\HealthHack\gitrepo\tism\HealthHack.TiSM\HealthHack.TiSM\obj\Debug\HealthHack.TiSM.exe
+D:\Users\d639126\Desktop\HealthHack\gitrepo\tism\HealthHack.TiSM\HealthHack.TiSM\obj\Debug\HealthHack.TiSM.pdb
+D:\Users\d639126\Desktop\HealthHack\gitrepo\tism\HealthHack.TiSM\HealthHack.TiSM\obj\Debug\HealthHack.TiSM.csprojResolveAssemblyReference.cache
+D:\Users\d639126\Desktop\HealthHack\gitrepo\tism\HealthHack.TiSM\HealthHack.TiSM\bin\Debug\HealthHack.TiSM.exe
+D:\Users\d639126\Desktop\HealthHack\gitrepo\tism\HealthHack.TiSM\HealthHack.TiSM\bin\Debug\HealthHack.TiSM.pdb
+D:\Users\d639126\Desktop\HealthHack\gitrepo\tism\HealthHack.TiSM\HealthHack.TiSM\bin\Debug\HealthHack.TiSM.DAL.dll
+D:\Users\d639126\Desktop\HealthHack\gitrepo\tism\HealthHack.TiSM\HealthHack.TiSM\bin\Debug\HealthHack.TiSM.Model.dll
+D:\Users\d639126\Desktop\HealthHack\gitrepo\tism\HealthHack.TiSM\HealthHack.TiSM\bin\Debug\HealthHack.TiSM.DAL.pdb
+D:\Users\d639126\Desktop\HealthHack\gitrepo\tism\HealthHack.TiSM\HealthHack.TiSM\bin\Debug\HealthHack.TiSM.Model.pdb

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.IO;
 
 namespace HealthHack.TiSM.Model
 {
@@ -22,12 +23,18 @@ namespace HealthHack.TiSM.Model
         public string ProcessOutput { get; set; }
 
         public string getCDNAFileName(string dataDirectory) {
-            string specificTranscriptFile = dataDirectory + Gene + @"_" + Transscript + @".txt";
-            string geneFile =  dataDirectory + Gene + @".txt"
+            string specificTranscriptFile = dataDirectory +  Gene[0] + Path.DirectorySeparatorChar + Gene + "_" + Transscript + "_cdna.txt";
+            string geneFile = dataDirectory + Gene[0] + Path.DirectorySeparatorChar + Gene + @"_cdna.txt";
             if (File.Exists(specificTranscriptFile)) {
                 return specificTranscriptFile;
-            } else {
+            }
+            else if (File.Exists(geneFile))
+            {
                 return geneFile;
+            }
+            else
+            {
+                throw new Exception("File not found");
             }
 
 
