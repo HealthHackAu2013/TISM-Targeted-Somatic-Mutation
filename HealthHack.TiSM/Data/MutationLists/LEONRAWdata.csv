@@ -1,0 +1,62 @@
+Gene,Transscript,AA Mutation,CDS Mutation,Somatic status,Zygosity,Validated,Type,Position
+ABCD4,ENST00000356924,p.R251L,c.752G>T,Confirmed Somatic,Unknown,Unverified,Substitution,14:74759919..74759919
+ACAP1,ENST00000158762,p.R148W,c.442C>T,Confirmed Somatic,Unknown,Unverified,Substitution,17:7246795..7246795
+ADAMTS13,ENST00000371929,p.L918L,c.2754G>A,Confirmed Somatic,Unknown,Unverified,Substitution,9:136313742..136313742
+ALPK2,NM_052947,p.?,c.4380-9A>C,Confirmed Somatic,Unknown,Unverified,Substitution - intronic,18:56149280..56149280
+ALPK2_ENST00000361673,ENST00000361673,p.?,c.6297-9A>C,Confirmed Somatic,Unknown,Unverified,Substitution - intronic,18:56149280..56149280
+APLF,ENST00000303795,p.?,c.1333+8A>G,Confirmed Somatic,Unknown,Unverified,Substitution - intronic,2:68794527..68794527
+C17orf63_ENST00000341217,ENST00000341217,p.P411L,c.1232C>T,Confirmed Somatic,Unknown,Unverified,Substitution,17:27085745..27085745
+C1GALT1,ENST00000223122,p.Q152fs*8,c.453delT,Confirmed Somatic,Unknown,Unverified,Deletion,7:7278118..7278118
+CD47,ENST00000361309,p.I127S,c.380T>G,Confirmed Somatic,Unknown,Unverified,Substitution,3:107798858..107798858
+CIB1,ENST00000328649,p.R43W,c.127C>T,Confirmed Somatic,Unknown,Unverified,Substitution,15:90775519..90775519
+CIT,SU_CRIK,p.?,c.1548+9T>C,Confirmed Somatic,Unknown,Unverified,Substitution - intronic,12:120221703..120221703
+CIT_ENST00000261833,ENST00000261833,p.?,c.1545+9T>C,Confirmed Somatic,Unknown,Unverified,Substitution - intronic,12:120221703..120221703
+COL6A3,ENST00000295550,p.G520G,c.1560C>T,Confirmed Somatic,Unknown,Unverified,Substitution,2:238289895..238289895
+CRYBB1,ENST00000215939,p.T37T,c.111T>A,Confirmed Somatic,Unknown,Unverified,Substitution,22:27012173..27012173
+DLC1,ENST00000276297,p.R1384R,c.4152C>T,Confirmed Somatic,Unknown,Unverified,Substitution,8:12946136..12946136
+DPP9,ENST00000357909,p.H253H,c.759C>T,Confirmed Somatic,Unknown,Unverified,Substitution,19:4704221..4704221
+ENSG00000156509,ENST00000315946,p.N155N,c.465T>C,Confirmed Somatic,Unknown,Unverified,Substitution,8:101153915..101153915
+FAM160A2,ENST00000265978,p.P641R,c.1922C>G,Confirmed Somatic,Unknown,Unverified,Substitution,11:6238936..6238936
+FAM65C,ENST00000327979,p.R102C,c.304C>T,Confirmed Somatic,Unknown,Unverified,Substitution,20:49232571..49232571
+FBXO43,XM_209918.4,p.N155N,c.465T>C,Confirmed Somatic,Unknown,Unverified,Substitution,8:101153915..101153915
+FSCB,ENST00000340446,p.S684P,c.2050T>C,Confirmed Somatic,Unknown,Unverified,Substitution,14:44974141..44974141
+HIST1H2BG,ENST00000244601,p.S92C,c.275C>G,Confirmed Somatic,Unknown,Unverified,Substitution,6:26216597..26216597
+JMJD7-PLA2G4B,ENST00000382448,p.G417D,c.1250G>A,Confirmed Somatic,Unknown,Unverified,Substitution,15:42134083..42134083
+LILRA4,ENST00000291759,p.R190K,c.569G>A,Confirmed Somatic,Unknown,Unverified,Substitution,19:54849293..54849293
+MAGEB1,ENST00000378981,p.L200V,c.598C>G,Confirmed Somatic,Unknown,Unverified,Substitution,X:30269208..30269208
+MFSD4,ENST00000367147,p.V445A,c.1334T>C,Confirmed Somatic,Unknown,Unverified,Substitution,1:205566944..205566944
+MYC_ENST00000377970,ENST00000377970,p.?,c.30+1G>T,Confirmed Somatic,Unknown,Unverified,Substitution - intronic,8:128748870..128748870
+NCAPD3,ENST00000534548,p.N1073S,c.3218A>G,Confirmed Somatic,Unknown,Unverified,Substitution,11:134038833..134038833
+NLRP13,ENST00000342929,p.S330S,c.990G>A,Confirmed Somatic,Unknown,Unverified,Substitution,19:56424193..56424193
+NNT,ENST00000264663,p.R170fs*23,c.509delG,Confirmed Somatic,Unknown,Unverified,Deletion,5:43616077..43616077
+NT5DC2,ENST00000307076,p.Y81C,c.242A>G,Confirmed Somatic,Unknown,Unverified,Substitution,3:52563230..52563230
+OLFML1,ENST00000329293,p.L260L,c.778T>C,Confirmed Somatic,Unknown,Unverified,Substitution,11:7530988..7530988
+OR4D5,ENST00000307033,p.V150V,c.450G>A,Confirmed Somatic,Unknown,Unverified,Substitution,11:123810773..123810773
+OR9G4,ENST00000302957,p.R137H,c.410G>A,Confirmed Somatic,Unknown,Unverified,Substitution,11:56510878..56510878
+PLUNC,ENST00000375422,p.T111fs*27,c.330delC,Confirmed Somatic,Unknown,Unverified,Deletion,20:31827618..31827618
+Q76B61_HUMAN,ENST00000360022,p.P173S,c.517C>T,Confirmed Somatic,Unknown,Unverified,Substitution,7:149481030..149481030
+SCAND3,ENST00000452236,p.S680L,c.2039C>T,Confirmed Somatic,Unknown,Unverified,Substitution,6:28542443..28542443
+SCN1A,ENST00000375405,p.R701*,c.2101C>T,Confirmed Somatic,Unknown,Unverified,Substitution,2:166898844..166898844
+SCN2A,ENST00000375427,p.D68E,c.204C>A,Confirmed Somatic,Unknown,Unverified,Substitution,2:166152537..166152537
+SLC22A6,ENST00000377871,p.?,c.1252+3G>A,Confirmed Somatic,Unknown,Unverified,Substitution - intronic,11:62747203..62747203
+STK38L,ENST00000389032,p.A2P,c.4G>C,Confirmed Somatic,Unknown,Unverified,Substitution,12:27450657..27450657
+SUPT7L,ENST00000337768,p.?,c.15-3G>C,Confirmed Somatic,Unknown,Unverified,Substitution - intronic,2:27884258..27884258
+TBX19,ENST00000367821,p.W135L,c.404G>T,Confirmed Somatic,Unknown,Unverified,Substitution,1:168260598..168260598
+TBX20,ENST00000297053,p.Y162Y,c.486C>T,Confirmed Somatic,Unknown,Unverified,Substitution,7:35288348..35288348
+TBX20_ENST00000408931,ENST00000408931,p.Y162Y,c.486C>T,Confirmed Somatic,Unknown,Unverified,Substitution,7:35288348..35288348
+TREML2,ENST00000373108,p.?,c.233-10G>T,Confirmed Somatic,Unknown,Unverified,Substitution - intronic,6:41166177..41166177
+TRIM34,ENST00000514226,p.E120Q,c.358G>C,Confirmed Somatic,Unknown,Unverified,Substitution,11:5653919..5653919
+TRIM6-TRIM34,ENST00000337072,p.E474Q,c.1420G>C,Confirmed Somatic,Unknown,Unverified,Substitution,11:5653919..5653919
+TXLNB,ENST00000358430,p.A109fs*30,c.326delC,Confirmed Somatic,Unknown,Unverified,Deletion,6:139609711..139609711
+UBE2D1,ENST00000373910,p.Q46H,c.138A>C,Confirmed Somatic,Unknown,Unverified,Substitution,10:60123386..60123386
+USP1,ENST00000371146,p.P239L,c.716C>T,Confirmed Somatic,Unknown,Unverified,Substitution,1:62910567..62910567
+YES1,ENST00000584307,p.V237V,c.711G>A,Confirmed Somatic,Unknown,Unverified,Substitution,18:745721..745721
+ZFHX3,ENST00000268489,p.Y2660*,c.7980T>G,Confirmed Somatic,Unknown,Unverified,Substitution,16:72828601..72828601
+ZFHX4,ENST00000521891,p.M3480I,c.10440G>T,Confirmed Somatic,Unknown,Unverified,Substitution,8:77776390..77776390
+ZFP2,ENST00000361362,p.G98E,c.293G>A,Confirmed Somatic,Unknown,Unverified,Substitution,5:178358607..178358607
+ZNF12,ENST00000405858,p.F105fs*2,c.309_310delTG,Confirmed Somatic,Unknown,Unverified,Deletion,7:6732263..6732264
+ZNF177,ENST00000343499,p.M43L,c.127A>C,Confirmed Somatic,Unknown,Unverified,Substitution,19:9489731..9489731
+ZNF177_ENST00000434737,ENST00000434737,p.M43L,c.127A>C,Confirmed Somatic,Unknown,Unverified,Substitution,19:9489731..9489731
+ZNF215,ENST00000278319,p.N344Y,c.1030A>T,Confirmed Somatic,Unknown,Unverified,Substitution,11:6977238..6977238
+ZNF646,ENST00000300850,p.R384H,c.1151G>A,Confirmed Somatic,Unknown,Unverified,Substitution,16:31088796..31088796
+ZNRF3,ENST00000406323,p.C230Y,c.689G>A,Confirmed Somatic,Unknown,Unverified,Substitution,22:29444453..29444453

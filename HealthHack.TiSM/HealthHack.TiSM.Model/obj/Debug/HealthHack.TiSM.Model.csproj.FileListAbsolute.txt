@@ -1,0 +1,4 @@
+D:\!Work\HealthHack\HealthHack.TiSM\HealthHack.TiSM.Model\bin\Debug\HealthHack.TiSM.Model.dll
+D:\!Work\HealthHack\HealthHack.TiSM\HealthHack.TiSM.Model\bin\Debug\HealthHack.TiSM.Model.pdb
+D:\!Work\HealthHack\HealthHack.TiSM\HealthHack.TiSM.Model\obj\Debug\HealthHack.TiSM.Model.dll
+D:\!Work\HealthHack\HealthHack.TiSM\HealthHack.TiSM.Model\obj\Debug\HealthHack.TiSM.Model.pdb

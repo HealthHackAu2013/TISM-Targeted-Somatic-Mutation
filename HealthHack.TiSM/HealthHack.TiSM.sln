@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthHack.TiSM", "HealthHack.TiSM\HealthHack.TiSM.csproj", "{5427BE86-C872-4D42-BEA0-85B51A795D38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthHack.TiSM.Model", "HealthHack.TiSM.Model\HealthHack.TiSM.Model.csproj", "{5BB41A5B-E81A-4EFB-BFD4-BD9591B643B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthHack.TiSM.DAL", "HealthHack.TiSM.DAL\HealthHack.TiSM.DAL.csproj", "{2E9D9D90-2411-45AD-BF04-28213F5A9666}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5427BE86-C872-4D42-BEA0-85B51A795D38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5427BE86-C872-4D42-BEA0-85B51A795D38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5427BE86-C872-4D42-BEA0-85B51A795D38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5427BE86-C872-4D42-BEA0-85B51A795D38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BB41A5B-E81A-4EFB-BFD4-BD9591B643B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BB41A5B-E81A-4EFB-BFD4-BD9591B643B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BB41A5B-E81A-4EFB-BFD4-BD9591B643B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BB41A5B-E81A-4EFB-BFD4-BD9591B643B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E9D9D90-2411-45AD-BF04-28213F5A9666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E9D9D90-2411-45AD-BF04-28213F5A9666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E9D9D90-2411-45AD-BF04-28213F5A9666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E9D9D90-2411-45AD-BF04-28213F5A9666}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
