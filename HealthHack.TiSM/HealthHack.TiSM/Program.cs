@@ -29,7 +29,7 @@ namespace HealthHack.TiSM
                         {
                             try
                             {
-                                using (StreamReader reader = new StreamReader(File.OpenRead(args[1].ToString() + mutation.Transscript + ".txt")))
+                                using (StreamReader reader = new StreamReader(File.OpenRead(mutation.getCDNAFileName(args[1].ToString()) )))
                                 {
                                     fileContent = reader.ReadToEnd();
                                     fileContent = fileContent.Replace("\n", "");

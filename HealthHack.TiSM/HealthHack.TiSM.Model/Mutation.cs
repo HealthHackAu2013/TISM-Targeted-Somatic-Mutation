@@ -20,5 +20,17 @@ namespace HealthHack.TiSM.Model
         public string PreviousCodon { get; set; }
         public string NextCodon { get; set; }
         public string ProcessOutput { get; set; }
+
+        public string getCDNAFileName(string dataDirectory) {
+            string specificTranscriptFile = dataDirectory + Gene + @"_" + Transscript + @".txt";
+            string geneFile =  dataDirectory + Gene + @".txt"
+            if (File.Exists(specificTranscriptFile)) {
+                return specificTranscriptFile;
+            } else {
+                return geneFile;
+            }
+
+
+        }
     }
 }
