@@ -51,6 +51,54 @@ namespace HealthHack.TiSM
                         mutation.PreviousCodon = window.Substring(0, 3);
                         mutation.MutatedCodon = window.Substring(3, 3);
                         mutation.NextCodon = window.Substring(6, 3);
+                        int positionOfMutInWindow = 2 + mutation.MC1Position;
+                        mutation.CDSMutation.WA_ = "0";
+                        mutation.CDSMutation.WRC_ = "0";
+                        mutation.CDSMutation._CG = "0";
+                        mutation.CDSMutation._GYW = "0";
+                        mutation.CDSMutation.CG_ = "0";
+                        switch (mutation.CDSMutation.WT.ToUpper())
+                        {
+                            case "A":
+                                {
+                                    string site = window.Substring(positionOfMutInWindow - 1, 2);
+                                    if (site == "AA" || site == "TA") mutation.CDSMutation.WA_ = "1";
+                                    break;
+                                }
+                            case "G":
+                                {
+                                     string site = window.Substring(positionOfMutInWindow , 3);
+                                     if (site == "GTA"
+                                         || site == "GCA"
+                                         || site == "GTT"
+                                         || site == "GCT"
+                                         )
+                                         mutation.CDSMutation._GYW = "1";
+                                     else
+                                     {
+                                         site = window.Substring(positionOfMutInWindow -1, 2);
+                                         if (site == "CG") mutation.CDSMutation.CG_ = "1";
+                                     }
+
+                                    break;
+                                }
+                            case "C":
+                                {
+                                    string site = window.Substring(positionOfMutInWindow - 2, 3);
+                                    if (site == "AAC"
+                                        || site == "AGC"
+                                        || site == "TAC"
+                                        || site == "TGC"
+                                        )
+                                        mutation.CDSMutation.WRC_ = "1";
+                                    else
+                                    {
+                                        site = window.Substring(positionOfMutInWindow , 2);
+                                        if (site == "CG") mutation.CDSMutation._CG = "1";
+                                    } 
+                                    break;
+                                }
+                        }
                         break;
                     }
 

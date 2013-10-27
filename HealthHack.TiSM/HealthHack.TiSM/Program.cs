@@ -56,6 +56,8 @@ namespace HealthHack.TiSM
                                     }
                                     else
                                     {
+                                        Console.Write("Error on gene :"+mutation.Gene +" where gene sequence does not start with ATG");
+                                       // list.Remove(mutation);
                                         /*
                                          * We need to present to the user some information on which genes we could not find a valid file for
                                          *                                          
@@ -77,6 +79,7 @@ namespace HealthHack.TiSM
                             }
                         }
                     }
+                    list = list.Where(x => x.MutatedCodon != null).ToList();
                     manager.PersistToDB(list);
                 }
                 catch (Exception ex)

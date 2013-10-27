@@ -35,6 +35,13 @@ namespace HealthHack.TiSM.DAL
                         command.Parameters.Add(new SqlParameter("@PreviousCodon", m.PreviousCodon  ));
                         command.Parameters.Add(new SqlParameter("@MutatedCodon", m.MutatedCodon   ));
                         command.Parameters.Add(new SqlParameter("@NextCodon", m.NextCodon   ));
+                        command.Parameters.Add(new SqlParameter("@WT", m.CDSMutation.WT  ));
+                        command.Parameters.Add(new SqlParameter("@Mut", m.CDSMutation.Mut )); 
+                        command.Parameters.Add(new SqlParameter("@WA_", m.CDSMutation.WA_ ));
+                        command.Parameters.Add(new SqlParameter("@_CG",m.CDSMutation._CG  ));
+                        command.Parameters.Add(new SqlParameter("@CG_", m.CDSMutation.CG_    ));
+                        command.Parameters.Add(new SqlParameter("@_GYW",m.CDSMutation._GYW  ));
+                        command.Parameters.Add(new SqlParameter("@WRC_", m.CDSMutation.WRC_ ));
                         command.ExecuteNonQuery(); 
                         command.Dispose();
                     }
@@ -42,7 +49,8 @@ namespace HealthHack.TiSM.DAL
             }
             catch (Exception e)
             {
-                return false;
+                throw e;
+                //return false;
             }
             finally
             {

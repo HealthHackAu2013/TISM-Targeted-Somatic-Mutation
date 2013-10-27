@@ -23,6 +23,8 @@ namespace HealthHack.TiSM.Model
         public string NextCodon { get; set; }
         public string ProcessOutput { get; set; }
 
+       
+
         public string getCDNAFileName(string dataDirectory) {
             string specificTranscriptFile = dataDirectory +  Gene[0] + Path.DirectorySeparatorChar + Gene + "_" + Transscript + "_cdna.txt";
             string geneFile = dataDirectory + Gene[0] + Path.DirectorySeparatorChar + Gene + @"_cdna.txt";

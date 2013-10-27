@@ -22,5 +22,25 @@ namespace HealthHack.TiSM.Model
             Position = pos;
             System.Diagnostics.Debug.Write(pos +",");
         }
+
+        public string WT
+        {
+            get
+            {
+                return Identifier.Substring(Identifier.Length - 3, 1);
+            }
+        }
+        public string Mut
+        {
+            get
+            {
+                return Identifier.Substring(Identifier.Length - 1, 1);
+            }
+        }
+        public string WA_ { get; set; }
+        public string _CG { get; set; }
+        public string CG_ { get; set; }
+        public string WRC_ { get; set; }
+        public string _GYW { get; set; }
     }
 }
