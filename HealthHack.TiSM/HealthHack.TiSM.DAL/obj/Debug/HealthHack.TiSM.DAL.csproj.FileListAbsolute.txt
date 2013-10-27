@@ -1,7 +1,0 @@
-D:\!Work\HealthHack\HealthHack.TiSM\HealthHack.TiSM.DAL\obj\Debug\HealthHack.TiSM.DAL.csprojResolveAssemblyReference.cache
-D:\!Work\HealthHack\HealthHack.TiSM\HealthHack.TiSM.DAL\bin\Debug\HealthHack.TiSM.DAL.dll
-D:\!Work\HealthHack\HealthHack.TiSM\HealthHack.TiSM.DAL\bin\Debug\HealthHack.TiSM.DAL.pdb
-D:\!Work\HealthHack\HealthHack.TiSM\HealthHack.TiSM.DAL\bin\Debug\HealthHack.TiSM.Model.dll
-D:\!Work\HealthHack\HealthHack.TiSM\HealthHack.TiSM.DAL\bin\Debug\HealthHack.TiSM.Model.pdb
-D:\!Work\HealthHack\HealthHack.TiSM\HealthHack.TiSM.DAL\obj\Debug\HealthHack.TiSM.DAL.dll
-D:\!Work\HealthHack\HealthHack.TiSM\HealthHack.TiSM.DAL\obj\Debug\HealthHack.TiSM.DAL.pdb
