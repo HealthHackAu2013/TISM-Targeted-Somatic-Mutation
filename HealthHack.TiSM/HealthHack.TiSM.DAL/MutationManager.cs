@@ -22,14 +22,16 @@ namespace HealthHack.TiSM.DAL
                 using (con = GetConnection())
                 {
                     con.Open();
+                    string patientIdentifier = Guid.NewGuid().ToString();
                     foreach(Mutation m in list)
                     {
                         command = GetCommand();
                         command.CommandText = "SetMutation";
+                        command.Parameters.Add(new SqlParameter("@PatientId", patientIdentifier ));
                         command.Parameters.Add(new SqlParameter("@Gene", m.Gene ));
                         command.Parameters.Add(new SqlParameter("@GeneSequenceLocator", m.Transscript )); 
                         command.Parameters.Add(new SqlParameter("@cDNAReference", m.CDSMutation.Identifier  ));
-                        command.Parameters.Add(new SqlParameter("@MCPosition", m.CDSMutation.Position));
+                        command.Parameters.Add(new SqlParameter("@MCPosition", m.MC1Position ));
                         command.Parameters.Add(new SqlParameter("@PreviousCodon", m.PreviousCodon  ));
                         command.Parameters.Add(new SqlParameter("@MutatedCodon", m.MutatedCodon   ));
                         command.Parameters.Add(new SqlParameter("@NextCodon", m.NextCodon   ));

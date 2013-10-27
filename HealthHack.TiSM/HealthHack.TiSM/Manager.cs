@@ -32,7 +32,8 @@ namespace HealthHack.TiSM
                     m.Position = items[8];
                     list.Add(m);
                 }
-                //list=list.OrderBy(x=> x.CDSMutation.Position ).ToList();
+                list = list.Where(x=> x.Type.ToUpper() =="SUBSTITUTION" ).ToList();
+                list = list.Where(x => x.Transscript.Substring(0,4).ToUpper() == "ENST").ToList();
             }
             catch { }
             return list;
@@ -44,9 +45,9 @@ namespace HealthHack.TiSM
             {
                 case "SUBSTITUTION":
                     {
-                        int mc1 = mutation.CDSMutation.Position % 3;
-                        if (mc1 == 0)  mc1 = 3;                                    
-                        string window = GetWindow(geneSequence, mutation.CDSMutation.Position-1, mc1);
+                        mutation.MC1Position  = mutation.CDSMutation.Position % 3;
+                        if (mutation.MC1Position == 0) mutation.MC1Position = 3;
+                        string window = GetWindow(geneSequence, mutation.CDSMutation.Position - 1, mutation.MC1Position);
                         mutation.PreviousCodon = window.Substring(0, 3);
                         mutation.MutatedCodon = window.Substring(3, 3);
                         mutation.NextCodon = window.Substring(6, 3);

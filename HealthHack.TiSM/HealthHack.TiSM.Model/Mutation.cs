@@ -17,6 +17,7 @@ namespace HealthHack.TiSM.Model
         public string Validated { get; set; }
         public string Type { get; set; }
         public string Position { get; set; }
+        public int MC1Position { get; set; }
         public string MutatedCodon { get; set; }
         public string PreviousCodon { get; set; }
         public string NextCodon { get; set; }
